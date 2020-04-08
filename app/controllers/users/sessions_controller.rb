@@ -15,6 +15,8 @@ class Users::SessionsController < Devise::SessionsController
     flash[:notice] = 'Signed out successfully.'
     root_path
   end
+
+ 
   # GET /resource/sign_in
   # def new
   #   super

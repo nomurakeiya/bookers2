@@ -12,12 +12,10 @@ end
 
 #アカウント編集後
 def after_update_path_for(resource)
-  
+
 end
   # GET /resource/sign_up
-  # def new
-  #   super
-  # end
+
 
   # POST /resource
   # def create
