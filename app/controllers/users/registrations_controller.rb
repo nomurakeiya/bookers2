@@ -4,16 +4,7 @@ class Users::RegistrationsController < Devise::RegistrationsController
   # before_action :configure_sign_up_params, only: [:create]
   # before_action :configure_account_update_params, only: [:update]
 
-#アカウント登録後
-def after_sign_up_path_for(resource)
-  flash[:notice] = 'Welcome! You have signed up successfully.'
-  user_path(current_user.id)
-end
 
-#アカウント編集後
-def after_update_path_for(resource)
-
-end
   # GET /resource/sign_up
 
 
